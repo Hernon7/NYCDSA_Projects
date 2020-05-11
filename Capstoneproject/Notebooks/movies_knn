@@ -1,0 +1,72 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "version": "0.3.2",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/lazysimon/NYCDSA_CapstoneProject/blob/master/movies_knn\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "aj8UcZTP2M6X",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "import os\n",
+        "import time\n",
+        "\n",
+        "# data science imports\n",
+        "import math\n",
+        "import numpy as np\n",
+        "import pandas as pd\n",
+        "from scipy.sparse import csr_matrix\n",
+        "from sklearn.neighbors import NearestNeighbors\n",
+        "\n",
+        "# utils import\n",
+        "#from fuzzywuzzy import fuzz\n",
+        "\n",
+        "# visualization imports\n",
+        "import seaborn as sns\n",
+        "import matplotlib.pyplot as plt\n",
+        "plt.style.use('ggplot')\n",
+        "\n",
+        "%matplotlib inline"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "z3kA3Hqr2Up8",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": 0,
+      "outputs": []
+    }
+  ]
+}
